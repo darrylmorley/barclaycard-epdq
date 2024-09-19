@@ -1,6 +1,6 @@
 # Barclaycard Epdq
 
-Barclaycard Epdq is a node library for interfacing with Barclaycard's ePDQ payment gateway, based on [epdq_npm](https://github.com/UKForeignOffice/epdq_npm).
+Barclaycard Epdq is a node library for interfacing with Barclaycard's ePDQ payment gateway, based on [epdq_npm](https://github.com/UKForeignOffice/epdq_npm) by [Steve Laing](mailto:steve.laing@gmail.com).
 
 ## Usage
 
