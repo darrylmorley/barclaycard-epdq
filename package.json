@@ -1,6 +1,6 @@
 {
   "name": "barclaycard_epdq",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/epdq.js",
   "types": "dist/epdq.d.ts",
   "type": "module",
