@@ -1,5 +1,5 @@
-import EPDQ from "../epdq";
-import { ShaCalculator } from "./sha_calculator";
+import EPDQ from "../epdq.js";
+import { ShaCalculator } from "./sha_calculator.js";
 
 interface RequestParameters {
   [key: string]: string | number | undefined;

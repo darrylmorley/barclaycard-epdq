@@ -1,6 +1,6 @@
 import qs from "qs";
-import EPDQ from "../epdq";
-import { ShaCalculator } from "./sha_calculator";
+import EPDQ from "../epdq.js";
+import { ShaCalculator } from "./sha_calculator.js";
 
 export class Response {
   private rawParameters: Record<string, string> = {};

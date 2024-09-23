@@ -8,6 +8,6 @@ const EPDQ = {
   },
 };
 
-export { Request } from "./epdq/request";
-export { Response } from "./epdq/response";
+export { Request } from "./epdq/request.js";
+export { Response } from "./epdq/response.js";
 export default EPDQ;
