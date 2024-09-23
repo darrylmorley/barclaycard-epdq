@@ -1,15 +1,23 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "ESNext",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
+    "types": [
+      "node"
+    ],
+    "target": "ES2020", // Suitable for Node.js
+    "module": "ESNext", // For ESM support
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "declaration": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
   },
   "include": [
-    "src"
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
   ]
 }

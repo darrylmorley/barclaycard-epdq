@@ -1,4 +1,4 @@
-export const EPDQ = {
+const EPDQ = {
   config: {
     testMode: false,
     shaType: "sha256",
@@ -10,3 +10,4 @@ export const EPDQ = {
 
 export { Request } from "./epdq/request";
 export { Response } from "./epdq/response";
+export default EPDQ;

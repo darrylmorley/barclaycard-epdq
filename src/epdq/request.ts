@@ -1,4 +1,4 @@
-import { EPDQ } from "../epdq";
+import EPDQ from "../epdq";
 import { ShaCalculator } from "./sha_calculator";
 
 interface RequestParameters {

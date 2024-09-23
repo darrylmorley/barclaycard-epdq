@@ -7,7 +7,8 @@ Barclaycard Epdq is a node library for interfacing with Barclaycard's ePDQ payme
 First, configure the EPDQ module for your settings:
 
 ```JS
-import EPDQ from "epdq";
+
+import EPDQ, {Request} from "barclaycard_epdq"
 
 EPDQ.config.shaType = "sha256";
 EPDQ.config.pspid  = "MyPSPID";
@@ -18,7 +19,7 @@ EPDQ.config.shaOut = "yourshaoutstring";
 Then you can build the form for a user to POST to, starting in the controller: All the options keys are named after the downcased fields in the [ePDQ documentation](https://mdepayments.epdq.co.uk/ncol/ePDQ_e-Com-ADV_EN.pdf), provided as strings.
 
 ```JS
-let request = new EPDQ.Request({amount: 1500, currency: 'EUR', language: 'en_US', orderid: '1234'});
+let request = new Request({amount: 1500, currency: 'EUR', language: 'en_US', orderid: '1234'});
 ```
 
 You can then generate a signature for the request.
