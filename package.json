@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/epdq.js",
   "types": "dist/epdq.d.ts",
+  "type": "module",
   "license": "MIT",
   "author": "Darryl Morley <darrylmorley.uk@gmail.com>",
   "description": "EPDQ is a library for interfacing with Barclaycard's ePDQ payment gateway based on https://github.com/UKForeignOffice/epdq_npm.",
